@@ -1,0 +1,204 @@
+body {
+
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+
+    padding: -0.5rem;
+    height: 3vh;
+}
+
+.nav-content {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 2rem;
+    align-content: center;
+}
+
+
+.list {
+    display: flex;
+    margin right: 2rem;
+}
+
+.item {
+    list-style: none;
+    margin-right: 4rem;
+    color: grey;
+    transition: all .5s;
+
+}
+
+.item:hover {
+    color: darkblue;
+    font-size: 1.2rem;
+
+}
+
+.list1 {
+    display: flex;
+}
+
+.items {
+    list-style: none;
+    margin-left: 3rem;
+    transition: all 0.5s;
+}
+
+.items:hover {
+    color: darkblue;
+
+}
+
+.header{
+    background-image:url(../images/apps-digital-hand-media-4957.jpg) ;
+    background-attachment: fixed;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+    
+}
+
+.header-content {
+    
+    
+    
+}
+
+.header-title{
+    
+    margin-right: 4rem;
+    font-size: 3.5rem;
+    color: navy;
+    margin-right: 4rem ;
+    
+
+}
+
+.header-title2 {
+    font-size: 2.5rem;
+    font-style: normal;
+    
+    
+}
+
+.section1 {
+    display: flex;
+    background-image: url(../images/nokia\ wallpaper.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    padding: 3rem 1rem;
+}
+
+.section1-content {
+    align-items: center;
+    background-image: url(../images/android-android-phone-cell-phone-cellphone-404280.jpg);
+    margin-right: 8rem;
+    height: 20rem;
+    width: 20rem;
+    padding: 0 2rem;
+    box-shadow: 4px 4px 6px #000000;
+}
+
+.phone-title {
+
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 0.801);
+
+}
+.phone-desc {
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.801);
+}
+
+
+
+.new-content {
+    align-items: center;
+    background-image: url(../images/Data\ center.png); 
+    height: 20rem;
+    width: 20rem;
+    padding: 0 2rem;
+    box-shadow: 4px 4px 6px #000000;
+}
+
+.new-title {
+
+font-size: 2rem;
+color: white;
+}
+
+.new-desc {
+    font-size: 1.1rem;
+    color: white;
+}
+
+.section2 {
+    background-image:url(../images/nokia\ wallpaper.jpg) ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    padding: 7rem 4rem;
+    justify-content: space-evenly;
+    
+}
+
+.section2-content {
+    
+    width: 30.3%;
+    box-shadow: 4px 4px 6px #000000;
+    background-color: rgba(255, 255, 255, 0.11);
+}
+
+
+.section3-content {
+    
+    width: 30.3%;
+    box-shadow: 4px 4px 6px #000000;
+    background-color: rgba(255, 255, 255, 0.11);
+}
+
+.section4-content {
+    
+    
+    width: 30.5%;
+    box-shadow: 4px 4px 6px #000000;
+    background-color: rgba(255, 255, 255, 0.11);
+}
+.desc {
+    color: rgba(255, 255, 255, 0.63);
+}
+
+.heading {
+
+    color: darkblue;   
+}
+
+.footer {
+    background-color: rgb(3, 3, 56);
+    text-align: center;
+    padding: 2.5rem 0;
+}
+
+.footer-text {
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
