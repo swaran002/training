@@ -4,6 +4,7 @@ body {
     padding: 0;
 }
 
+/*Navigation starts here*/
 .navigation {
 
     padding: -0.5rem;
@@ -54,6 +55,10 @@ body {
 
 }
 
+/*Navigation ends here*/
+
+/*header starts here*/
+
 .header{
     background-image:url(../images/apps-digital-hand-media-4957.jpg) ;
     background-attachment: fixed;
@@ -62,25 +67,22 @@ body {
     background-size: cover;
     
 }
-
-
-
 .header-title{
     
     margin-right: 4rem;
     font-size: 3.5rem;
     color: navy;
     margin-right: 4rem ;
-    
-
 }
 
 .header-title2 {
     font-size: 2.5rem;
-    font-style: normal;
-    
-    
+    font-style: normal;   
 }
+
+/*header ends here*/
+
+/*Main starts here*/
 
 .section1 {
     display: flex;
@@ -208,6 +210,10 @@ color: white;
 
 }
 
+/*History section ends here*/
+
+/*Product section starts here*/
+
 .product-title {
     text-align: center;
 }
@@ -238,6 +244,9 @@ color: white;
     justify-content: center;
 }
 
+/*Product section ends here*/
+
+/*Service section stars here*/
 .services {
     padding: 8rem 3rem;
     
@@ -273,6 +282,10 @@ color: white;
     line-height: 1.2;
     color: white;
 }
+
+/*Service section ends here*/
+
+/*Shopping section stars here*/
 
 
 .shopping {
@@ -343,6 +356,12 @@ color: white;
     padding-right: 1rem;
 }
 
+/*Shopping section ends here*/
+
+/*Main ends here*/
+
+/*Footer section stars here*/
+
 .footer {
     background-color: rgb(3, 3, 56);
     text-align: center;
@@ -353,7 +372,7 @@ color: white;
     color: white;
 }
 
-
+/*Footer section ends here*/
 
 
 
