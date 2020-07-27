@@ -61,15 +61,9 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     
-
-    
 }
 
-.header-content {
-    
-    
-    
-}
+
 
 .header-title{
     
@@ -181,6 +175,172 @@ color: white;
 .heading {
 
     color: darkblue;   
+}
+
+/*History section starts here*/
+
+.history-content{
+    display: flex;
+    justify-content: center;
+    padding: 2rem 3rem;
+}
+
+.history-title{
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.history-right{
+    width: 40%;
+}
+
+.history-left{
+    width: 60%;
+}
+
+.history-img{
+    width: 100%;
+}
+
+.history1-title {
+    font-size: 1.5rem;
+    text-align: center;
+
+}
+
+.product-title {
+    text-align: center;
+}
+
+.products-content {
+    display: flex;
+    padding: 3rem 2rem;
+   
+}
+
+.products-left {
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    
+    
+}
+
+.products-left > div {
+    width: 30%;
+    background-color: rgba(87, 87, 87, 0.404);
+    box-shadow: 3px 3px 6px #00000081;
+
+}
+
+.products-right {
+    width: 30%;
+    justify-content: center;
+}
+
+.services {
+    padding: 8rem 3rem;
+    
+}
+
+.service-content{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.service{
+    margin: 0 1.4rem;
+    background-color: rgb(3, 3, 56);
+    padding: 1rem 2rem;
+    text-align: center;
+    clip-path: polygon(0 15% , 100% 0 , 100% 90%, 0 100%);
+}
+
+.service__title {
+    font-size: 2rem;
+    color: white;
+    transition: all .5s;
+}
+
+.service__title:hover {
+    color: turquoise;
+    font-size: 2.1rem;
+}
+
+.service__desc {
+
+    line-height: 1.2;
+    color: white;
+}
+
+
+.shopping {
+
+    padding: 6rem 0;
+}
+.shopping-title {
+
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(3, 3, 56);
+}
+
+.shopping-section {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 3rem;
+}
+
+.shopping-content {
+    margin: 1rem;
+    box-shadow: 3px 3px 6px #0000009a;
+    transition: all .5s;
+
+}
+
+.shopping-content:hover{
+    box-shadow: 6px 6px 12px #0000009f;
+}
+
+.shopping-img {
+    background-color: #000000;
+    
+}
+
+.shopping_img {
+    display: block;
+    opacity: .8;
+    transition: all .3s;
+}
+
+.shopping-content:hover .shopping_img {
+    opacity: .4;
+}
+
+.shopping-products {
+    transition: all .5s;
+}
+
+.shopping-products:hover {
+    color: navy;
+    font-size: 1.02rem;
+}
+
+.product-name {
+    padding-left: 0.5rem;
+}
+
+.product-detail {
+    padding-left: 0.5rem;
+}
+.product-rating {
+    padding-left: 0.5rem;
+}
+
+.product-price {
+    text-align: right;
+    padding-right: 1rem;
 }
 
 .footer {
